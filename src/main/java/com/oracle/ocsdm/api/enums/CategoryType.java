@@ -15,6 +15,6 @@ public enum CategoryType {
 	REGRESSION, 
 	SMOKE, 
 	SANITY, 
-	BVT
+	SCZ920
 
 }

@@ -18,4 +18,12 @@ import java.util.List;
 public class Attributes {
     @JsonProperty
     List<Attribute> attribute;
+
+    @JsonProperty
+    String name;
+
+    @JsonProperty
+    String value;
+
+
 }

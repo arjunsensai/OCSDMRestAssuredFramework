@@ -16,6 +16,10 @@ public class RestApi {
         return RestResource.post(path, payload);
     }
 
+    public static Response post(String path, String loginSessionId) {
+        return RestResource.post(path, loginSessionId);
+    }
+
     public static Response post(String path, Object payload, String loginSessionId) {
         return RestResource.post(path, payload, loginSessionId);
     }

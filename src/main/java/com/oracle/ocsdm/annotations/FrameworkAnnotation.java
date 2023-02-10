@@ -24,8 +24,5 @@ public @interface FrameworkAnnotation {
 	// This is not a method
 	AuthorType[] author();
 
-	// public String[] category();
-	//AuthorType[] category();
-
 	CategoryType[] category();
 }

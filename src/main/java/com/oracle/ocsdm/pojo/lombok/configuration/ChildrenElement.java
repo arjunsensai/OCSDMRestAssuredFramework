@@ -8,6 +8,8 @@ import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.jackson.Jacksonized;
 
+import java.util.List;
+
 @Data
 @Builder
 @Jacksonized
@@ -17,5 +19,5 @@ public class ChildrenElement {
     @JsonProperty
     String elementTypePath;
     @JsonProperty
-    Attributes attributes;
+    List<Attributes> attributes;
 }

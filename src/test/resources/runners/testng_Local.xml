@@ -6,7 +6,7 @@
 		<listener
 			class-name="com.oracle.ocsdm.listeners.AnnotationTransformer" />
 	</listeners>
-	<test name="Regression Tests execution for OCSDM APIs"
+	<test name="Sanity Tests Execution for OCSDM APIs"
 		thread-count="10" parallel="none">
 		<packages>
 			<package name="com.oracle.ocsdm.tests" />

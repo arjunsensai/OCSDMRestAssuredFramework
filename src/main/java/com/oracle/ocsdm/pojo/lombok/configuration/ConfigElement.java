@@ -8,6 +8,8 @@ import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.jackson.Jacksonized;
 
+import java.util.List;
+
 @Data
 @Builder
 @Jacksonized
@@ -16,10 +18,10 @@ import lombok.extern.jackson.Jacksonized;
 public class ConfigElement {
     @JsonProperty
     String elementTypePath;
+    @JsonProperty("attributes")
+    List<Attributes> attributes;//Extra
     @JsonProperty
-    Attributes attributes;
-    @JsonProperty
-    ChildrenElements childrenElements;
+    List<ChildrenElements> childrenElements;
     @JsonProperty
     ParentElement parentElement;
 

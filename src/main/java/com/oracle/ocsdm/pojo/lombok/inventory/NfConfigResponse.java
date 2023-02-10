@@ -18,10 +18,6 @@ public class NfConfigResponse {
 
     @JsonProperty
     Child[] children;
-//    ObjectMapper mapper = new ObjectMapper();
-//    List<Child> list = mapper.readerForListOf(Child.class).readValue(Json);
-
-
     @JsonProperty
     String groupType;
     @JsonProperty
